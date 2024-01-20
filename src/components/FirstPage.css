@@ -1,0 +1,96 @@
+.firstPageParent {
+  display: flex;
+
+  margin-top: 5%;
+
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errors {
+  color: red;
+  font-size: 0.75vmax;
+}
+.highlighted {
+  color: WHITE;
+  background-color: green;
+}
+.stepNumbers {
+  display: flex;
+  width: 70vmax;
+  justify-content: space-evenly;
+}
+.steps {
+  border-style: solid;
+  width: 1.5vmax;
+  height: 1.5vmax;
+  border-radius: 100%;
+  border-width: 1px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vmax;
+  margin: 5% 0;
+  align-items: center;
+  border-style: solid;
+  padding: 3%;
+  border-radius: 10px;
+  border-width: 1px;
+}
+.form > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2vmax;
+}
+.form > div > input {
+  width: 15vmax;
+  height: 2vmax;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-left: 3%;
+  margin-top: 3%;
+}
+.buttons {
+  display: flex;
+  width: 25vmax;
+  justify-content: space-around;
+}
+.buttons > div {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  width: 7vmax;
+  height: 3vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttons > div >a{
+  color: white;
+}
+.buttons > div:hover {
+  color: royalblue;
+  background-color: white;
+  transition: 1s all;
+}
+
+select {
+  width: 15vmax;
+  height: 2vmax;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: lightgrey;
+  padding-left: 3%;
+  margin-top: 3%;
+}
