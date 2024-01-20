@@ -40,3 +40,9 @@ The following validations are integrated in the application:
 9. Password: Required, minimum length 6 characters.
 
 10. Confirm Password: Required, must match the password field
+
+# Additional notes
+1. The application contains a .gif file which is displayed after successful submission of the form
+2. The error messages are displayed for each input field to allow better user experience
+3. The form cannot be proceeded to the next step untill all the validations are met.
+
